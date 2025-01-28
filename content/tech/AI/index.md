@@ -10,3 +10,4 @@
 --- 
 
 - [news](/tech/AI/news)
+- [AI models in skin condition diagnosis](/tech/AI/skin)
