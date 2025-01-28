@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head id="head">
+    <meta charset="UTF-8">
+    <meta name="description" content="nikon.dev - Everything by Nikon Sugar">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@sugarme">
+    <meta name="twitter:author" content="@sugarme">
+    <meta name="twitter:description" content="nikon.dev - Everything by Nikon Sugar">
+    <meta name="twitter:title" content="AI Models in Skin Condition Diagnosis - Review | nikon.dev">
+    <meta property="og:title" content="AI Models in Skin Condition Diagnosis - Review">
+    <meta property="og:type" content="website">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title id="title">
+      AI Models in Skin Condition Diagnosis - Review
+      - nikon.dev
+    </title>
+
+    <!--favicon files-->
+    <link rel="icon" type="image/png" sizes="16x16" href="/nikon-40x40.png" >
+    <link rel="icon" type="image/png" sizes="32x32" href="/nikon-40x40.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/nikon-96x96.png">
+    <link rel="apple-touch-icon"  sizes="120x120" href="/nikon-120x120.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/nikon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/nikon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/nikon-167x167.png">
+
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/highlight.css">
+    
+  </head>
+  <body>
+    <div id="content">
+      
+  <style>
+    h3.overtitle {
+       margin-bottom: 0;
+     }
+     h1.title {
+       margin-top: 50px;
+     }
+  </style>
+  <h1 class="title" >AI Models in Skin Condition Diagnosis - Review</h1>
+  <div id="page" ><p>To be updated...</p><h2>Models</h2><h3>Llava dermatology 7B</h3><p>Finetune Llava 1.5 7B with LoRA on Skin Condition Image Network (SCIN) dataset.</p><p><strong>config.json</strong></p><pre><code class="json">{
+  <span class="string special key">"architectures"</span>: [
+    <span class="string">"LlavaForConditionalGeneration"</span>
+  ],
+  <span class="string special key">"ignore_index"</span>: <span class="number">-100</span>,
+  <span class="string special key">"image_token_index"</span>: <span class="number">32000</span>,
+  <span class="string special key">"model_type"</span>: <span class="string">"llava"</span>,
+  <span class="string special key">"pad_token_id"</span>: <span class="number">32001</span>,
+  <span class="string special key">"projector_hidden_act"</span>: <span class="string">"gelu"</span>,
+  <span class="string special key">"text_config"</span>: {
+    <span class="string special key">"_name_or_path"</span>: <span class="string">"lmsys/vicuna-7b-v1.5"</span>,
+    <span class="string special key">"architectures"</span>: [
+      <span class="string">"LlamaForCausalLM"</span>
+    ],
+    <span class="string special key">"max_position_embeddings"</span>: <span class="number">4096</span>,
+    <span class="string special key">"model_type"</span>: <span class="string">"llama"</span>,
+    <span class="string special key">"pad_token_id"</span>: <span class="number">0</span>,
+    <span class="string special key">"rms_norm_eps"</span>: <span class="number">1e-05</span>,
+    <span class="string special key">"torch_dtype"</span>: <span class="string">"float16"</span>,
+    <span class="string special key">"vocab_size"</span>: <span class="number">32064</span>
+  },
+  <span class="string special key">"torch_dtype"</span>: <span class="string">"float16"</span>,
+  <span class="string special key">"transformers_version"</span>: <span class="string">"4.42.0"</span>,
+  <span class="string special key">"vision_config"</span>: {
+    <span class="string special key">"hidden_size"</span>: <span class="number">1024</span>,
+    <span class="string special key">"image_size"</span>: <span class="number">336</span>,
+    <span class="string special key">"intermediate_size"</span>: <span class="number">4096</span>,
+    <span class="string special key">"model_type"</span>: <span class="string">"clip_vision_model"</span>,
+    <span class="string special key">"num_attention_heads"</span>: <span class="number">16</span>,
+    <span class="string special key">"num_hidden_layers"</span>: <span class="number">24</span>,
+    <span class="string special key">"patch_size"</span>: <span class="number">14</span>,
+    <span class="string special key">"projection_dim"</span>: <span class="number">768</span>,
+    <span class="string special key">"vocab_size"</span>: <span class="number">32000</span>
+  },
+  <span class="string special key">"vision_feature_layer"</span>: <span class="number">-2</span>,
+  <span class="string special key">"vision_feature_select_strategy"</span>: <span class="string">"default"</span>
+}
+</code></pre>
+<h2>References</h2><ol><li><p><a href="https://huggingface.co/Esperanto/llava-dermatology-7b-v1.5-hf">Llava-Dermatology 7B</a></p></li></ol></div>
+
+  <div id="nav-container">
+	<div class="btn"><a href="/">home</a></div>
+	<div class="btn"><a href="/posts">blog</a></div>
+	<div class="btn"><a href="/tech">technology</a></div>
+	<div class="btn"><a href="/med">medicine</a></div>
+	<div class="btn"><a href="/life">life</a></div>
+  </div>
+
+
+    </div>
+  </body>
+</html>
