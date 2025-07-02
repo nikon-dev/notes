@@ -11,3 +11,4 @@
 
 - [news](/tech/AI/news)
 - [AI models in skin condition diagnosis](/tech/AI/skin)
+- [week 27](/tech/AI/week2527)
