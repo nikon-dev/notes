@@ -21,7 +21,6 @@ pub fn build(b: *std.Build) !void {
             "Merriweather/Merriweather-Light.ttf",
             "Merriweather/Merriweather-LightItalic.ttf",
             "Merriweather/Merriweather-Regular.ttf",
-            "ernie.png",
         },
     });
 }
