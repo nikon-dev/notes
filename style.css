@@ -186,7 +186,7 @@ figure img {
 
 #page h2 {
         font-size: 1.7rem;
-        border-bottom: 1px dashed #aaa;
+        /* border-bottom: 1px dashed #aaa; */
         margin-top: 2em;
 }
 
