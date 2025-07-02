@@ -16,7 +16,6 @@
 		}
 
 		#reference h2 {
-			/* border-bottom: 1px dashed #aaa; */
 			margin-top: 2em;
 		}
 		

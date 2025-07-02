@@ -20,7 +20,6 @@
 
 		#docs h2 {
 			font-size: 1.5rem;
-			/* border-bottom: 1px dashed #aaa; */
 			margin-top: 2em;
 		}
 
